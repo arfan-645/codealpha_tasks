@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 320px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+    border-radius: 4px;
+    transition: border-color 0.3s ease, outline 0.3s ease;  /* Smooth transition */
+}
+
+input:focus {
+    outline: 0.1px solid #A020F0;  /* Purple color for outline */
+    border-color: #A020F0;       /* Optional: change border color as well */
+}
+button {
+    width: 100%;
+    padding: 10px;
+    background: #A020F0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #7118a8;
+}
+p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+a {
+    color: #A020F0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.error-border {
+    border-color: red !important;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+}
+
+
